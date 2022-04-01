@@ -1,0 +1,42 @@
+.greetingClass {
+    display: flex;
+    align-items: flex-start;
+}
+
+.error {
+    color: red;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.input {
+    margin: 15px;
+    background: green;
+    color: black;
+}
+
+
+.errorInput {
+    margin: 15px;
+    background: green;
+    color: black;
+    border: 2px solid red;
+    outline: none;
+}
+
+.button {
+    margin-block-start: 15px;
+    width: 60px;
+    background: green;
+    color: black;
+    outline: none;
+}
+
+.total {
+    margin: 10px;
+    margin-block-start: 15px;
+}
+
+.button:disabled {
+    color: darkgray;
+}

@@ -1,0 +1,28 @@
+.affairs {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+    width: 100px;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+    background: green;
+    color: black;
+    outline: none;
+}
+
+.high {
+    color: red;
+}
+
+.middle {
+    color: blue;
+}
+
+.low {
+    color: chartreuse;
+}
