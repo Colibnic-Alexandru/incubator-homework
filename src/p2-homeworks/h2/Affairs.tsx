@@ -4,7 +4,7 @@ import {AffairType, FilterType} from './HW2'
 import s from "./Affairs.module.css"
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
-type AffairsPropsType = { // need to fix any
+type AffairsPropsType = {
     data:  Array<AffairType>
     setFilter: (type: FilterType)=> void
     deleteAffairCallback: (_id: number)=> void
@@ -12,14 +12,14 @@ type AffairsPropsType = { // need to fix any
 
 function Affairs(props: AffairsPropsType) {
     const mappedAffairs = props.data.map((a: AffairType) => (
-        <Affair // should work
-            key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
+        <Affair
+            key={a._id}
             affair={a}
             deleteAffairCallback={props.deleteAffairCallback}
         />
     ))
 
-    const setAll = () => {props.setFilter('all')} // need to fix
+    const setAll = () => {props.setFilter('all')}
     const setHigh = () => {props.setFilter('high')}
     const setMiddle = () => {props.setFilter('middle')}
     const setLow = () => {props.setFilter('low')}

@@ -1,7 +1,11 @@
-.default {
-
+.button {
+    margin-block-start: 15px;
+    width: 60px;
+    background: green;
+    color: black;
+    outline: none;
 }
 
-.red {
-    background: red;
+.button:disabled {
+    color: darkgray;
 }

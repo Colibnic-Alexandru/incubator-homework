@@ -1,11 +1,20 @@
-.superInput {
-
-}
-
-.errorInput {
-    border: 3px solid #ff0000;
-}
-
 .error {
     color: red;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.input {
+    margin: 15px;
+    background: green;
+    color: black;
+}
+
+
+.errorInput {
+    margin: 15px;
+    background: green;
+    color: black;
+    border: 2px solid red;
+    outline: none;
 }
