@@ -1,0 +1,33 @@
+.navLink {
+    background-color: chartreuse;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid chartreuse;
+    border-radius: 15px;
+}
+
+.navLink:hover {
+    color: orangered;
+}
+
+
+.el {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    background: darkgreen;
+}
+
+.header {
+    display: flex;
+    width: 350px;
+    transition-duration: 500ms;
+    transform: translate(-300px);
+}
+
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+}
