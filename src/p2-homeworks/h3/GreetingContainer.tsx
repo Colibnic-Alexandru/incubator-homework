@@ -23,7 +23,6 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
             setError('Warning is bad string')
         }
 
-        // need to fix
     }
     const addUser = () => {
         addUserCallback(name)
