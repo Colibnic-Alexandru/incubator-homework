@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
 
-// types
+
 export type AffairPriorityType = 'high' | 'low' | 'middle'
 export type AffairType = {
     _id: number,
@@ -39,15 +39,12 @@ function HW2() {
         <div>
             <hr/>
             homeworks 2
-
-            should work (должно работать)
+            <hr/>
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
             />
-
-            <hr/>
             <hr/>
         </div>
     )

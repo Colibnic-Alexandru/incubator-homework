@@ -14,8 +14,7 @@ function HW1() {
         <div>
             <hr/>
             homeworks 1
-
-            should work (должно работать)
+            <hr/>
 
             <Message
                 avatar={messageData.avatar}
@@ -23,8 +22,6 @@ function HW1() {
                 message={messageData.message}
                 time={messageData.time}
             />
-
-            <hr/>
             <hr/>
         </div>
     )

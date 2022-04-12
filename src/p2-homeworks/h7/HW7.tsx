@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import SuperSelect from './common/c5-SuperSelect/SuperSelect'
 import SuperRadio from './common/c6-SuperRadio/SuperRadio'
+import SuperSelect from "./common/c5-SuperSelect/SuperSelect";
 
-const arr = ['x', 'y', 'z']
+const arr = ['Alex', 'Dima', 'Vlad']
 
 function HW7() {
     const [value, onChangeOption] = useState(arr[1])
@@ -11,8 +11,7 @@ function HW7() {
         <div>
             <hr/>
             homeworks 7
-
-            {/*should work (должно работать)*/}
+           <hr/>
             <div>
                 <SuperSelect
                     options={arr}
@@ -28,11 +27,6 @@ function HW7() {
                     onChangeOption={onChangeOption}
                 />
             </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperSelect/>*/}
-            {/*<AlternativeSuperRadio/>*/}
             <hr/>
         </div>
     )
