@@ -14,15 +14,17 @@
 
 
 .el {
-    width: 35px;
-    height: 35px;
+    text-align: center;
+    width: 50px;
+    height: 25px;
     margin: 10px;
     background: darkgreen;
+    border-radius: 10px;
 }
 
 .header {
     display: flex;
-    width: 350px;
+    width: 370px;
     transition-duration: 500ms;
     transform: translate(-300px);
 }
