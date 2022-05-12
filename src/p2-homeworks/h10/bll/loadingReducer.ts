@@ -5,7 +5,6 @@ const initState = {
 export type InitStateType = typeof initState;
 
 export const loadingReducer = (state:InitStateType = initState, action: LoadingActionType):InitStateType => {
-
     switch (action.type) {
         case 'CHANGE-STATUS-LOADING': {
             return {
